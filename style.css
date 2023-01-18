@@ -25,7 +25,9 @@ h2 {
 #welcome {
     margin-top: 40px;
   }
-
+hr {
+  border: 1px solid aqua;
+}
 
 @media screen and (max-width: 570px){ 
   body{
@@ -38,6 +40,14 @@ h2 {
 
   .gambar-home img{
     width: 320px;
+  }
+
+  .gambar-content img{
+    width: 200px;
+  }
+
+  .w3-bar .w3-bar-item {
+    padding: 8px 5px;
   }
 }
 
