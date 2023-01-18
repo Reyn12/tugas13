@@ -1,0 +1,145 @@
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="style.css">
+<body>
+    <header class="header-bg">
+        <div class="header-text">
+        <h2>MEMBUAT MENU DAN NAVIGASI</h2></div>
+      </header>
+      
+    <div class="w3-bar w3-orange">
+        <div class="button" style="display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        justify-content: center;">
+        <button class="w3-bar-item w3-button" onclick="openKota('welcome')">Home</button>
+        <button class="w3-bar-item w3-button" onclick="openKota('Garut')">Garut</button>
+        <button class="w3-bar-item w3-button" onclick="openKota('top')">Top</button>
+        <button class="w3-bar-item w3-button" onclick="openKota('bottom')">Bottom</button>
+        <button class="w3-bar-item w3-button" onclick="openKota('left')">Left</button>
+        <button class="w3-bar-item w3-button" onclick="openKota('right')">Right</button>
+
+        <div class="w3-dropdown-hover">
+            <button class="w3-button">More</button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <button class="w3-bar-item w3-button" onclick="openKota('zoom')">Zoom</button>
+            <button class="w3-bar-item w3-button" onclick="openKota('oppacity')">Oppacity</button>
+            <button class="w3-bar-item w3-button" onclick="openKota('fading')">Fading</button>
+            <button class="w3-bar-item w3-button" onclick="openKota('spin')">Spin</button>
+
+            </div>
+        </div>
+
+        </div>
+    </div>
+
+    <div id="welcome" class="w3-container kota" style="display: block;">
+        <center>
+        <p><h2>Welcome</h2></p>
+        <p><h2>Belajar membuat menu dan navigasi</h2></p>
+        </center>
+    </div>
+    <div id="top" class="w3-container kota w3-animate-top" style="display: none;">
+        <center>
+        <p><h2>Animasi Top</h2></p>
+        <p><h2>Belajar membuat animasi top</h2></p>
+        <img src="pictures/gambar2.jpg" alt="" width="400px">
+        </center>
+    </div>
+
+    <div id="bottom" class="w3-container kota w3-animate-bottom" style="display: none;">
+        <center>
+        <p><h2>Animasi Bottom</h2></p>
+        <p><h2>Belajar membuat animasi Bottom</h2></p>
+        <img src="pictures/gambar2.jpg" alt="" width="400px">
+        </center>
+    </div>
+
+    <div id="left" class="w3-container kota w3-animate-left" style="display: none;">
+        <center>
+        <p><h2>Animasi Left</h2></p>
+        <p><h2>Belajar membuat animasi Left</h2></p>
+        <img src="pictures/gambar2.jpg" alt="" width="400px">
+        </center>
+    </div>
+
+    <div id="right" class="w3-container kota w3-animate-right" style="display: none;">
+        <center>
+        <p><h2>Animasi Right</h2></p>
+        <p><h2>Belajar membuat animasi Right</h2></p>
+        <img src="pictures/gambar2.jpg" alt="" width="400px">
+        </center>
+    </div>
+
+    <div id="zoom" class="w3-container kota w3-animate-zoom" style="display: none;">
+        <center>
+        <p><h2>Animasi Zoom</h2></p>
+        <p><h2>Belajar membuat animasi Zoom</h2></p>
+        <img src="pictures/gambar2.jpg" alt="" width="400px">
+        </center>
+    </div>
+
+    <div id="oppacity" class="w3-container kota w3-animate-opacity" style="display: none;">
+        <center>
+        <p><h2>Animasi Opacity</h2></p>
+        <p><h2>Belajar membuat animasi Opacity</h2></p>
+        <img src="pictures/gambar2.jpg" alt="" width="400px">
+        </center>
+    </div>
+
+    <div id="fading" class="w3-container kota w3-animate-fading" style="display: none;">
+        <center>
+        <p><h2>Animasi Fading</h2></p>
+        <p><h2>Belajar membuat animasi Fading</h2></p>
+        <img src="pictures/gambar2.jpg" alt="" width="400px">
+        </center>
+    </div>
+    <div id="spin" class="w3-container kota" style="display: none;">
+        <center>
+        <p><h2>Animasi Spin</h2></p>
+        <p><h2>Belajar membuat animasi Spin</h2></p>
+        <img src="pictures/gambar2.jpg" alt="" width="300px" class="w3-spin">
+        </center>
+    </div>
+    
+    <div id="Bandung" class="w3-container kota w3-animate-zoom" style="display:none">
+        <h2>Bandung</h2>
+        <p>Dikenal dengan Julukan Kota Kembang, adalah Ibu Kota dari Provinsi Jawa Barat.
+        Dikenal dengan Julukan Kota Kembang, adalah Ibu Kota dari Provinsi Jawa Barat.
+        Dikenal dengan Julukan Kota Kembang, adalah Ibu Kota dari Provinsi Jawa Barat.
+        Dikenal dengan Julukan Kota Kembang, adalah Ibu Kota dari Provinsi Jawa Barat.
+        Dikenal dengan Julukan Kota Kembang, adalah Ibu Kota dari Provinsi Jawa Barat.
+        Dikenal dengan Julukan Kota Kembang, adalah Ibu Kota dari Provinsi Jawa Barat.
+        Dikenal dengan Julukan Kota Kembang, adalah Ibu Kota dari Provinsi Jawa Barat.
+        Dikenal dengan Julukan Kota Kembang, adalah Ibu Kota dari Provinsi Jawa Barat.
+        Dikenal dengan Julukan Kota Kembang, adalah Ibu Kota dari Provinsi Jawa Barat.
+        Dikenal dengan Julukan Kota Kembang, adalah Ibu Kota dari Provinsi Jawa Barat.
+        Dikenal dengan Julukan Kota Kembang, adalah Ibu Kota dari Provinsi Jawa Barat.
+        Dikenal dengan Julukan Kota Kembang, adalah Ibu Kota dari Provinsi Jawa Barat.
+        Dikenal dengan Julukan Kota Kembang, adalah Ibu Kota dari Provinsi Jawa Barat.
+        Dikenal dengan Julukan Kota Kembang, adalah Ibu Kota dari Provinsi Jawa Barat.
+        Dikenal dengan Julukan Kota Kembang, adalah Ibu Kota dari Provinsi Jawa Barat.
+        Dikenal dengan Julukan Kota Kembang, adalah Ibu Kota dari Provinsi Jawa Barat.</p>
+    </div>
+    <div id="Garut" class="w3-container kota" style="display:none">
+        <h2>Garut</h2>
+        <p>Dikenal dengan Julukan Kota Dodol, dan jaman juga dikenal dengan Jeruk Garut atau Domba
+        Garut</p>
+        </div>
+        <div id="Tasik" class="w3-container kota" style="display:none">
+        <h2>Tasikmalaya</h2>
+        <p>Atau Tasikmalaya Dikenal dengan Julukan Kota Intan, dan Kota Kerajinan Tangan</p>
+    </div>
+        <script>
+        function openKota(namakota) {
+        var i;
+        var x = document.getElementsByClassName("kota");
+        for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+        }
+        document.getElementById(namakota).style.display = "block";
+        }
+        </script>
+</body>
+</html>
