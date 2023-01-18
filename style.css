@@ -26,6 +26,18 @@ h2 {
     margin-top: 40px;
   }
 
-.biodata {
-  margin-left: 20px;
+
+@media screen and (max-width: 570px){ 
+  body{
+    overflow: hidden;
+  }
+  .w3-button {
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .gambar-home img{
+    width: 320px;
+  }
 }
+
