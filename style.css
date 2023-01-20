@@ -31,6 +31,11 @@ h2 {
 hr {
   border: 1px solid aqua;
 }
+.text-profile {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
 
 @media screen and (max-width: 570px){ 
   .header-bg {
